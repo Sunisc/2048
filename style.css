@@ -1,0 +1,17 @@
+body {
+    background-color: goldenrod;
+    text-align: center;
+    justify-content: center;
+}
+
+#size, #change-size, #restart {
+    width: 100px;
+    border-radius: 5px;
+}
+
+#canvas {
+    margin-top: 2%;
+    background-color: #fff;
+}
+
+

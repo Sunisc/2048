@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Surya's 2048</title>
+</head>
+
+<body>
+
+    <h1>2048</h1>
+    <h3 id="score">Score: </h3>
+    <p id='status'></p>
+
+    <div id="size-block">
+        <h3 id="size-title">Grid Size:</h3>
+        <input id="size" type="number" value="4">
+        <input id="change-size" type="button" value="Ok">
+        <input id="restart" type="button" value="Restart">
+    </div>
+
+    <div id="canvas-block">
+        <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
